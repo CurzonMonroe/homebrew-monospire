@@ -4,7 +4,7 @@ cask "monospire" do
 
   url "https://github.com/CurzonMonroe/Monospire/releases/download/v1.2.1/Monospire-1.2.1-arm64.dmg"
   name "Monospire"
-  desc "Native-feeling macOS Markdown editor with dual editing views"
+  desc "Native-feeling MacOS Markdown editor with dual editing views"
   homepage "https://github.com/CurzonMonroe/Monospire"
 
   auto_updates true
