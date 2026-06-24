@@ -7,7 +7,7 @@ cask "monospire" do
   desc "A focused Markdown editor"
   homepage "https://github.com/CurzonMonroe/Monospire"
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
 
   app "Monospire.app"
   binary "#{appdir}/Monospire.app/Contents/Resources/app/scripts/monospire-cli", target: "monospire"
