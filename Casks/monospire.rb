@@ -1,13 +1,14 @@
 cask "monospire" do
-  version "3.0.4"
-  sha256 "6e8d36aca02b3fe294bc35754b76a3c4772732e08bb755250e7c93b3a9242ac9"
+  version "3.1.0"
+  sha256 "006c72fc5be443ce207ca5cb38099e3e945dc561c5c1fb1af946e7ae88d74c93"
 
   url "https://github.com/CurzonMonroe/Monospire/releases/download/v#{version}/Monospire-#{version}-arm64.dmg"
   name "Monospire"
   desc "A focused Markdown editor"
   homepage "https://github.com/CurzonMonroe/Monospire"
 
-  depends_on macos: :big_sur
+  depends_on macos: :monterey
+  depends_on arch: :arm64
 
   app "Monospire.app"
   binary "#{appdir}/Monospire.app/Contents/Resources/app/scripts/monospire-cli", target: "monospire"
